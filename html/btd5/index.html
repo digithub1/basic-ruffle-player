@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bloonstd 5</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { width: 100%; height: 100%; overflow: hidden; background: #000; }
+    #root { width: 100%; height: 100%; position: absolute; inset: 0; }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+  <script src="../../ruffle-functions.js"></script>
+  <script>
+    embedSWF("btd5.swf", "root");
+  </script>
+</body>
+</html>
