@@ -1,0 +1,10 @@
+{
+  "name": "Blumgi Racers",
+  "short_name": "Blumgi Racers",
+  "description": "Blumgi Racers",
+  "start_url": "index.html",
+  "display": "fullscreen",
+  "orientation": "any",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff"
+}
