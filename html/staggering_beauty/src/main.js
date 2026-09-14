@@ -40,7 +40,7 @@ soundManager.onready(function() {
 });
 
 var img = new Image();
-img.src = '../assets/bg.gif';
+img.src = 'assets/bg.gif';
 
 var embedButton = document.getElementById('embed-button');
 var embedShade = document.getElementById('embed');
