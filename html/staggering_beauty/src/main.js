@@ -1,8 +1,6 @@
 soundManager.setup({
-  preferFlash: true,
-  flashVersion: 9,
+  preferFlash: false,
   useHighPerformance: true,
-  wmode: 'transparent',
   debugMode: false
 });
 
