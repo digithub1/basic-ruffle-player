@@ -12,39 +12,9 @@
     />
     <link rel="stylesheet" href="./style.css" />
 
-    <script type="text/javascript">
-      (function (m, e, t, r, i, k, a) {
-        m[i] =
-          m[i] ||
-          function () {
-            (m[i].a = m[i].a || []).push(arguments);
-          };
-        m[i].l = 1 * new Date();
-        for (var j = 0; j < document.scripts.length; j++) {
-          if (document.scripts[j].src === r) {
-            return;
-          }
-        }
-        (k = e.createElement(t)),
-          (a = e.getElementsByTagName(t)[0]),
-          (k.async = 1),
-          (k.src = r),
-          a.parentNode.insertBefore(k, a);
-      })(window, document, "script", "", "ym");
-
-      ym(96930744, "init", {
-        clickmap: true,
-        trackLinks: true,
-        accurateTrackBounce: true,
-        webvisor: true,
-      });
-      ym(96930744, "reachGoal", "Start");
+    <script>
+      window.ym = function () {};
     </script>
-    <noscript
-      ><div>
-        <img src="" style="position: absolute; left: -9999px" alt="" /></div
-    ></noscript>
-    <!-- /Yandex.Metrika counter -->
     <style>
       /* Убираем выделение по нажатию клавиш */
       canvas:focus {
@@ -92,8 +62,7 @@
       const config = {
         dataUrl: buildUrl + "/OldSpudy1.16.data.br",
         frameworkUrl: buildUrl + "/OldSpudy1.16.framework.js.br",
-        codeUrl:
-          "https://pub-2d868f15a1824cc8a2ec51069ed41c6f.r2.dev/spider_dude_parkour_OldSpudy1.16.wasm.br",
+        codeUrl: buildUrl + "/OldSpudy1.16.wasm.br",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Peacefull Shark",
         productName: "Spider Dude",
